@@ -1,0 +1,39 @@
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #f4f5f8; 
+
+  h1 {
+    font-size: 2rem;
+    color: #3880ff; 
+    text-align: center;
+    margin-top: 20px; 
+  }
+
+  ion-button {
+    width: 100%;
+    max-width: 400px;
+    --background: #3880ff; 
+    --border-radius: 8px;
+    margin-bottom: 20px; 
+  }
+  ion-button[fill="clear"] {
+    margin-top: 20px;
+    color: #000000; 
+    font-weight: bold;
+  }
+}
+
+
+body {
+  background-color: #f4f5f8; 
+}
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 15px;
+}
